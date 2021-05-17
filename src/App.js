@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import api from './API';
+import { api } from './API';
 
 function App() {
 
