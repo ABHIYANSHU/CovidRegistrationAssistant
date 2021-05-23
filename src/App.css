@@ -1,0 +1,245 @@
+.container {
+    display: grid;
+    grid-template-columns: 18vw 14vw 13vw 13vw 14vw 18vw;
+    grid-template-rows: 18vh 8vh 8vh 8vh 8vh 8vh 20vh 8vh;
+    grid-row-gap: 2vh;
+    grid-column-gap: 2vw;
+    margin: 0%;
+    padding: 0%;
+    font-size: medium;
+}
+
+.header {
+    display: flex;
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+    background-color: darkblue;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.message {
+    display: flex;
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.whatsapp {
+    display: flex;
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 1;
+    width: 100%;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    display: flex;
+    grid-column: 2 / span 4;
+    grid-row: 3 / span 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.options > p {
+    font-size: larger;
+}
+
+.pincode {
+    display: flex;
+    grid-column: 2 / span 4;
+    grid-row: 4 / span 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.pincode > input {
+    font-size: larger;
+    width: 100%;
+}
+
+.state {
+    display: flex;
+    grid-column: 2 / span 4;
+    grid-row: 4 / span 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.district {
+    display: flex;
+    grid-column: 2 / span 4;
+    grid-row: 5 / span 1;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    -webkit-appearance: menulist-button;
+    height: 60%;
+}
+
+.btn {
+    display: flex;
+    grid-column: 2 / span 4;
+    grid-row: 6 / span 1;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    font-size: larger;
+    color: black;
+    border-radius: 5%;
+}
+
+.steps {
+    display: flex;
+    grid-column: 1 / span 6;
+    grid-row: 7 / span 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    grid-column: 1 / span 6;
+    grid-row: 8 / span 1;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (min-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 18vw 14vw 13vw 13vw 14vw 18vw;
+        grid-template-rows: 20vh 8vh 8vh 8vh 8vh 28vh 8vh;
+        grid-row-gap: 2vh;
+        grid-column-gap: 2vw;
+        margin: 0%;
+        padding: 0%;
+        font-size: large;
+    }
+    
+    .header {
+        display: flex;
+        grid-column: 1 / span 6;
+        grid-row: 1 / span 1;
+        background-color: darkblue;
+        align-items: center;
+        color: white;
+        justify-content: center;
+    }
+    
+    .message {
+        display: flex;
+        grid-column: 1 / span 6;
+        grid-row: 2 / span 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .whatsapp {
+        display: flex;
+        grid-column: 2 / span 4;
+        grid-row: 2 / span 1;
+        width: 100%;
+        font-size: larger;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .options {
+        display: flex;
+        grid-column: 3 / span 2;
+        grid-row: 3 / span 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .options > input {
+        -webkit-appearance:button;
+        -moz-appearance:button;
+        appearance:button;
+        border:4px solid #ccc;
+        border-top-color:#bbb;
+        border-left-color:#bbb;
+        background:#fff;
+        width:10%;
+        height:40%;
+        border-radius:50%;
+    }
+    
+    .options > p {
+        font-size: larger;
+    }
+    
+    .pincode {
+        display: flex;
+        grid-column: 3 / span 2;
+        grid-row: 4 / span 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pincode > input {
+        font-size: larger;
+    }
+    
+    .state {
+        display: flex;
+        grid-column: 2 / span 2;
+        grid-row: 4 / span 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .district {
+        display: flex;
+        grid-column: 4 / span 2;
+        grid-row: 4 / span 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    select {
+        -webkit-appearance: menulist-button;
+        height: 50%;
+    }
+    
+    .btn {
+        display: flex;
+        grid-column: 3 / span 2;
+        grid-row: 5 / span 1;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5%;
+        background-color: lightblue;
+        font-size: larger;
+        color: black
+    }
+    
+    .steps {
+        display: flex;
+        grid-column: 1 / span 6;
+        grid-row: 6 / span 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer {
+        display: flex;
+        grid-column: 1 / span 6;
+        grid-row: 7 / span 1;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+}
