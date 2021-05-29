@@ -13,9 +13,9 @@
     display: flex;
     grid-column: 1 / span 6;
     grid-row: 1 / span 1;
-    background-color: darkblue;
+    background-color: white;
     align-items: center;
-    color: white;
+    color: black;
     justify-content: center;
     text-align: center;
 }
@@ -131,10 +131,11 @@ select {
         display: flex;
         grid-column: 1 / span 6;
         grid-row: 1 / span 1;
-        background-color: darkblue;
+        background-color:white;
         align-items: center;
-        color: white;
+        color: black;
         justify-content: center;
+        border-color: black;
     }
     
     .message {
@@ -153,6 +154,8 @@ select {
         font-size: larger;
         align-items: center;
         justify-content: center;
+        color: darkslategrey;
+
     }
     
     .options {
@@ -239,7 +242,7 @@ select {
         grid-row: 7 / span 1;
         align-items: center;
         justify-content: center;
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
     }
 }
